@@ -21,23 +21,23 @@ const App = () => {
               Press the corresponding "Use" button to invoke a moment for the respective action.
             </div>
             <div className='flex flex-row gap-3 mt-6'>
-              <div className='flex flex-col gap-3 w-[33%]'>
-                <ButtonSection description={"Move Servo 1"}/>
-                <ButtonSection description={"Move Servo 2"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
+              <div className='flex flex-col items-center gap-3 w-[33%]'>
+                <ButtonSection description={"Move Servo 1"} actionName={"S1"}/>
+                <ButtonSection description={"Move Servo 2"} actionName={"S2"}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
               </div> 
-              <div className='flex flex-col gap-3 w-[33%]'>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
+              <div className='flex flex-col items-center gap-3 w-[33%]'>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
               </div> 
-              <div className='flex flex-col gap-3 w-[33%]'>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
-                <ButtonSection description={"Lorem Ipsem"}/>
+              <div className='flex flex-col items-center gap-3 w-[33%]'>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
+                <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
               </div> 
             </div>
           </div>
