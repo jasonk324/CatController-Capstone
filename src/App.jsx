@@ -22,8 +22,8 @@ const App = () => {
             </div>
             <div className='flex flex-row gap-3 mt-6'>
               <div className='flex flex-col items-center gap-3 w-[33%]'>
-                <ButtonSection description={"Move Servo 1"} actionName={"S1"}/>
-                <ButtonSection description={"Move Servo 2"} actionName={"S2"}/>
+                <ButtonSection description={"Move Servo 1"} actionName={"1"}/>
+                <ButtonSection description={"Move Servo 2"} actionName={"2"}/>
                 <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
                 <ButtonSection description={"Lorem Ipsem"} actionName={""}/>
               </div> 
